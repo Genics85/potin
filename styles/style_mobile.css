@@ -1,0 +1,106 @@
+@media (max-width: 820px) {
+  .navbar .logo h1 {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  main {
+    padding: 5px 10px 40px;
+  }
+  .navbar .logo p {
+    display: block;
+    font-size: 24px;
+  }
+  .nav-buttons {
+    display: none;
+  }
+  .box {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .box-stars {
+    font-size: 20px;
+    top: -27px;
+  }
+  .box-image {
+    display: none;
+  }
+  .box .potin {
+    font-size: 60px;
+  }
+  .row {
+    gap: 10px;
+  }
+  .socials {
+    gap: 18px;
+    font-size: 15px;
+  }
+  .wallet {
+    font-size: 14px !important;
+  }
+  .about {
+    padding: 10px 10px;
+  }
+  .about-image {
+    display: none;
+  }
+  .about-text {
+    width: 100%;
+    align-items: center;
+  }
+  .about-head {
+    font-size: 70px;
+  }
+  .about-message {
+    width: 100%;
+    font-size: 20px;
+  }
+  .how-to-buy {
+    padding: 20px 10px;
+  }
+  .to-buy-text {
+    width: 100%;
+  }
+  .to-buy-head {
+    font-size: 70px;
+  }
+  .to-buy-image {
+    display: none;
+  }
+  .text-para-title {
+    font-size: 24px;
+  }
+  .text-para-message {
+    width: 100%;
+  }
+  .memes {
+    padding: 10px 10px;
+  }
+  .meme-head {
+    font-size: 70px;
+  }
+  .meme-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .info-users {
+    padding: 30px 20px;
+  }
+  .info-text-param {
+    width: 100%;
+    font-size: 20px;
+  }
+  .bot-functions img {
+    display: none;
+  }
+  .sub-footer {
+    padding: 20px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer br {
+    display: none;
+  }
+}
