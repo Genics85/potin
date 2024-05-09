@@ -82,6 +82,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  overflow-x: hidden;
 }
 
 img {
@@ -346,7 +347,7 @@ img {
 }
 
 .bot-functions img {
-  width: 100%;
+  width: 450px;
 }
 
 .info-users {
